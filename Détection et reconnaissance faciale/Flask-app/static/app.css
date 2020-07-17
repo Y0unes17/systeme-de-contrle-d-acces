@@ -1,0 +1,83 @@
+.first{
+    width: 450px;
+    height: 480px;
+    background: #000;
+    opacity: 0.5;
+    color: #fff;
+    top: 15%;
+    left:16%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    transform: skewY(10deg);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+    margin: 1px;
+    padding: 8px; 
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.sec{
+    width: 450px;
+    height: 480px;
+    background: #000;
+    opacity: 0.5;
+    color: #fff;
+    top: 15%;
+    left:51%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    transform: skewY(-10deg);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0; 
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+ h1{
+    margin: 25px;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    color:	#2F4F4F;	
+}
+h5{
+    
+    text-align: center;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    color:	#fff;	
+}
+.im{
+ text-align: center;
+
+}
+.first input[type="submit"] {
+    height: 40px;
+    width: 180px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #dfc4c4;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+#b{
+    text-align: center; 
+}
+.first input[type="submit"]:hover{
+    cursor: pointer;
+    background: #49463c;
+    color: rgb(255, 255, 255);
+}
+
+

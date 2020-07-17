@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Face Recognition </title>
+  <link rel="stylesheet" type="text/css" href="\static\app.css">
+  <link rel="stylesheet" type="text/css" href="\static\style.css">
+ 
+  </head>
+  <body>  
+    <div class="im">
+    <img src="\static\logo.png" /></div>
+    <div id="particles-js"></div>
+    <script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'particles.js') }}" ></script>
+
+         <script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'app.js') }}" ></script>
+
+  
+    <div class="first">
+      <p>
+        <h5>Applicatioin web </h5> 
+         Reconnaissance faciale en temep reél <br>
+  <br>  
+     	 Reconnaître un personne grâce à son visage <br>
+  <br>     
+  	 Authentification de personnes <br>
+  <br>
+         Verfication d'idtentiter  (dans le cadre d'un contrôle d'accès)<br>
+      </p>
+<br>
+ <p id="b">
+  <a href="/stream">
+  <input type="submit" value="Start !" />   
+</a>
+ </p>
+      
+   </div>
+  
+    <div class="sec">
+     
+        <img src="\static\FaceR.gif" width="400" height="450"/></div>
+     
+    </div>
+  
+  
+</body>
+</html>

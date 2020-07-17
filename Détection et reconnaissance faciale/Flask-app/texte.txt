@@ -1,0 +1,6 @@
+
+%USERPROFILE%/.keras/keras.json   
+conda activate py
+cd C:\Desktop\Flask-app
+set FLASK_APP=1.py
+flask run --host=0.0.0.0
